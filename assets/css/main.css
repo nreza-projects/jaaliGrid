@@ -1,0 +1,176 @@
+/* ------------------- */
+
+
+/* --- MAIN CSS --- */
+
+
+/* ------------------- */
+
+
+/* --- CONTENT 
+
+	Typography - 
+
+	Structure - 
+
+	Navigation - 
+
+	Viewports - 
+
+
+ --- */
+
+
+/* --- TYPOGRAPHY --- */
+
+html,
+body,
+p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 2.08em;
+    line-height: 1.18em;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 1.64em;
+    line-height: 1.78em;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 1.34em;
+    line-height: 1.78em;
+    color: #00367B;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: #32BBFF;
+}
+
+h5 {
+    font-family: 'Source Sans Pro', 'Arial Narrow Bold', serif;
+    font-size: 0.7em;
+    letter-spacing: 0.02em;
+    color: #545F75;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 1.09em;
+    line-height: 1.55em;
+    letter-spacing: -0.01em;
+    color: #545F74;
+}
+
+em {
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    font-weight: 300i;
+    font-size: 1.09em;
+    line-height: 1.55em;
+    letter-spacing: -0.01em;
+    color: #545F74;
+}
+
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    cursor: auto;
+    font-size: 1.54em;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    color: #FF655F;
+}
+
+a:active {
+    color: #993C36;
+}
+
+
+/* --- ... --- */
+
+
+/* --- STRUCTURE --- */
+
+
+/* ELEMENT STRUCTURE */
+
+
+/*
+header {}
+
+article {}
+
+footer {}
+*/
+
+
+/* STRUCTURE BY CLASS */
+
+.container {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: auto;
+    background-color: #E8F3F0;
+}
+
+.top-bar {
+    width: 100%;
+    background-color: #43FD84;
+    bottom: 1.10em;
+    float: left;
+}
+
+.main {
+    float: left;
+    width: 100%;
+}
+
+.content {
+    padding: 0.7em;
+}
+
+.foot-bar {
+    float: left;
+    width: 100%;
+    height: 09.00em;
+    display: block;
+    background-color: #1B2949;
+}
+
+
+/* --- ... --- */
+
+
+/* --- Navigation --- */
+
+.navigation {
+    list-style: none;
+    float: right;
+    padding: 0.32em;
+}
+
+.navigation li {
+    margin-right: 2.5em;
+    margin-bottom: 1.9em;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+/* --- ... --- */
